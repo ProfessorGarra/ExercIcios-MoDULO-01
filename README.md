@@ -1,2 +1,2 @@
-# Exercicios MODULO 01
- Exerccios para iniciantes
+# Exercícios MÓDULO 01
+ ExercÍcios para iniciantes.
