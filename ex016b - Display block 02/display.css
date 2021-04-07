@@ -4,6 +4,8 @@
 
     color: #f0f8ff;
     text-align: center;
+    line-height: 150px; /*centraliza verticalmente */
+    text-transform: uppercase; /*deixa fonte em caixa alta*/
 }
 
 .example-item {
