@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.example {
+
+    color: #f0f8ff;
+    text-align: center;
+}
+
+.example-item {
+    display: block;
+    width: 33%;
+    height: 150px;
+}
+
+.example-item-1 {
+    background-color: #4D5ECB;
+}
+
+.example-item-2 {
+    background-color: #B536A4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.example-item-3 {
+    background-color: #FFB44E;
+    margin-left: auto;
+}
