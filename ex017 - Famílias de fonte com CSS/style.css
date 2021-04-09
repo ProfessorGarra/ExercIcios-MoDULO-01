@@ -1,8 +1,30 @@
 @charset "UTF-8";
-body{
-    font-family: 'Courier New', Courier, monospace,Arial, Helvetica, sans-serif; /*safecombination são combinações de fontes que  serão testadas pelo navegador, uma de três, a primeira na ordem da lista, que for encontrada será utilizada*/
+
+body {
+    font-family: 'Courier New', Courier, monospace, Arial, Helvetica, sans-serif;
+    /*safecombination são combinações de fontes que  serão testadas pelo navegador, uma de três, a primeira na ordem da lista, que for encontrada será utilizada*/
 }
-h2, h1{
-    font-family: sans-serif, monospace, cursive; 
+
+
+h1 {
+font: italic bolder 3em "Work Sans", sans-serif;
+    text-decoration: underline;
+    /* podemos fazer um shorthand com comando font:
+    - font-style - font-weight:- font-size:-font-family
+    font-style: bolder;
+    font-weight: 800;
+    font-size: 3em;
+    font-family: sans-serif, monospace, cursive;*/
 }
+h2{
+    font: italic 100 2em monospace;
+}
+
 /* A fonte courier New são serifadas e mono espaçadas */
+/*Temos dois tipos de medidas de fontes:
+
+MEDIDAS ABSOLUTAS:
+cm,mm,in,px,pt,pc ob:recomendação da w3c é usar px, tamanho referencial é de 16px.
+
+MEDIDAS RELATIVAS:
+em,ex,rem,vw,vh,% obs: recomendação da wc3 é usar em , que geralmente é de 16px, ou seja 16px=1em. Podemos assumir que 1em é igual ao tamanho relativo natural da fonte.( trabalha com porcentagem do tamanho da fonte padrão.*/
