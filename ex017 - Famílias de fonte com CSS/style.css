@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body{
+    font-family: 'Courier New', Courier, monospace,Arial, Helvetica, sans-serif; /*safecombination são combinações de fontes que  serão testadas pelo navegador, uma de três, a primeira na ordem da lista, que for encontrada será utilizada*/
+}
+h2, h1{
+    font-family: sans-serif, monospace, cursive; 
+}
+/* A fonte courier New são serifadas e mono espaçadas */
