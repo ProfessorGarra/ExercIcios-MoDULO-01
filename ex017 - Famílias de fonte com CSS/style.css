@@ -1,14 +1,15 @@
 @charset "UTF-8";
 
 body {
-    font-family: 'Courier New', Courier, monospace, Arial, Helvetica, sans-serif;
+    font: normal 1em 'Courier New', Courier, monospace, Arial, Helvetica, sans-serif;
     /*safecombination são combinações de fontes que  serão testadas pelo navegador, uma de três, a primeira na ordem da lista, que for encontrada será utilizada*/
 }
 
 
 h1 {
 font: italic bolder 3em "Work Sans", sans-serif;
-    text-decoration: underline;
+    text-decoration:underline;
+    text-align:center;
     /* podemos fazer um shorthand com comando font:
     - font-style - font-weight:- font-size:-font-family
     font-style: bolder;
@@ -18,8 +19,12 @@ font: italic bolder 3em "Work Sans", sans-serif;
 }
 h2{
     font: italic 100 2em monospace;
+    text-align: right;
 }
-
+p{
+    text-align: justify;
+    text-indent: 35px; /* comando de margem */
+}
 /* A fonte courier New são serifadas e mono espaçadas */
 /*Temos dois tipos de medidas de fontes:
 
