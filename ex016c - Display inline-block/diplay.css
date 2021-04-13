@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.example{
+    color: #f0f8ff;
+    text-align: justify;
+    
+}
+.example::after{
+    content: "";
+    display:inline-block ;
+    width: 100%;
+}
+.example-item{
+    display: inline-block;
+    width: 25%;
+    height: 150px;
+    text-align: center;
+    line-height: center;
+    line-height: 150px; /*centraliza verticalmente */
+    text-transform: uppercase; /*deixa fonte em caixa alta*/
+    font-weight: bolder;
+    font-size: 3em;
+    
+    
+}
+.example-item1{
+    background-color: #ffe600;
+   
+}
+.example-item2{
+    background-color: #57C7C3;
+    
+    
+}
+.example-item3{
+    background-color: #3B97D3;
+    
+}

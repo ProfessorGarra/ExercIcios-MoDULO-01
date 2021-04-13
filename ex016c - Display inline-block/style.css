@@ -1,0 +1,15 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #FFB44E, #F14C59, #B536A4, #7343CB, #4D5ECB);
+    background-attachment: fixed;
+    font:italic normal 1em monospace;
+}
+ul,ol,li{
+    list-style: none;
+}
