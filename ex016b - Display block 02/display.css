@@ -12,12 +12,12 @@
     display: block;
     width: 33%;
     height: 150px;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 .example-item-1 {
     background-color: #4D5ECB;
+    margin-right: auto;
 }
 
 .example-item-2 {
