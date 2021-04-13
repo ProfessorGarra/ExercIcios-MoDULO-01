@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body{
+    background-image:linear-gradient(to right, #00f7ff , #00f777,#698000,#dee203 ) ;
+    font: oblique normal 1em arial;
+}
+
+h1{
+    color: #ea00ff;
+}
+
+h2{
+   color: #191970; 
+
+}
+#principal{
+    text-align: center;
+    font: italic bolder 3em monospace;
+    background-color: orangered;
+}
+    
