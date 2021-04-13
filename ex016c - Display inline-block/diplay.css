@@ -9,7 +9,7 @@
     display:inline-block ;
     width: 100%;
 }
-.example-item{
+.example-item{ /* Aqui faremos a formatação do texto dentro das caixas, bem como as dimensões das caixas,  pois  cada li foi transformada em inline-box, ou seja se comportam como palavras */
     display: inline-block;
     width: 25%;
     height: 150px;
