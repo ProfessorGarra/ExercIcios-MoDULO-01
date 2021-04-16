@@ -5,11 +5,11 @@ body{
 }
 
 h1{
-    color: #ea00ff;
+    color: #1e402f;
 }
 
 h2{
-   color: #191970; 
+   color: #3c805e; 
 
 }
 #principal{
@@ -17,4 +17,18 @@ h2{
     font: italic bolder 3em monospace;
     background-color: orangered;
 }
+
+.basico{
+    color: #3c805e; 
+}
+
+    .intermediario{
+color: #80793c;
+    }
     
+    .avancado{
+color: #803c3c;
+    }
+    .destaque{
+        background-color: #c5c56070;
+    }
