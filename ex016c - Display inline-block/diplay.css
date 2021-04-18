@@ -4,11 +4,8 @@
     text-align-last: center;
     display:inline-block;
     width: 100%;
-    padding-top: 10px;
-    
-
+    padding-top: 10px; 
 }
-
 .example-item{ /* Aqui faremos a formatação do texto dentro das caixas, bem como as dimensões das caixas,  pois  cada li foi transformada em inline-box, ou seja se comportam como palavras */
     display: inline-block;
     width: 25%;
@@ -23,15 +20,11 @@ Uppercase = Coloca todas as letras em maiúscula (traduzindo seria maiúscula).
 Lowercase = Coloca todas as letras em minúsculas (traduzindo seria minúscula).*/ 
 }
 .example-item1{
-    background-color: #ffe600;
-   
+    background-color: #ffe600;  
 }
 .example-item2{
-    background-color: #57C7C3;
-    
-    
+    background-color: #57C7C3;     
 }
 .example-item3{
-    background-color: #3B97D3;
-    
+    background-color: #3B97D3; 
 }
