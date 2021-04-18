@@ -1,26 +1,26 @@
 @charset "UTF-8";
 .example{
     color: #f0f8ff;
-    text-align: justify;
-    
-}
-.example::after{
-    content: "";
-    display:inline-block ;
+    text-align-last: center;
+    display:inline-block;
     width: 100%;
+    padding-top: 10px;
+    
+
 }
+
 .example-item{ /* Aqui faremos a formatação do texto dentro das caixas, bem como as dimensões das caixas,  pois  cada li foi transformada em inline-box, ou seja se comportam como palavras */
     display: inline-block;
     width: 25%;
     height: 150px;
-    text-align: center;
-    line-height: center;
-    line-height: 150px; /*centraliza verticalmente */
-    text-transform: uppercase; /*deixa fonte em caixa alta*/
+    margin: 0 10px 0 10px;
     font-weight: bolder;
     font-size: 3em;
-    
-    
+    line-height: 150px; /*centraliza verticalmente */
+    text-transform: uppercase; /*deixa fonte em caixa alta:None = Nenhuma formatação (traduzido seria nenhum).
+Capitalize = As primeiras letras de cada palavra ficam com letras maiúsculas (traduzindo seria Capitalizar).
+Uppercase = Coloca todas as letras em maiúscula (traduzindo seria maiúscula).
+Lowercase = Coloca todas as letras em minúsculas (traduzindo seria minúscula).*/ 
 }
 .example-item1{
     background-color: #ffe600;
