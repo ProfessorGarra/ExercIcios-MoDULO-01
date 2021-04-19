@@ -1,0 +1,25 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+ol,ul,li{
+    list-style: none;
+}
+ul{
+    text-align: center;
+}
+li{
+    display:inline-block;
+    text-align: center;
+}
+a{
+    display: block;
+    text-align: center;
+}
+.ai{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
