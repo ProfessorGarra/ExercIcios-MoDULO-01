@@ -4,7 +4,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* USAR EM TUDO, POIS AJUSTA O TAMANHO DA CAIXA COM A BORDA NO CALCULO PERCENTUAL, CONSIDERANDO AMBOS PARA O CÁLCULO.
     background: #7159c1;
 }
 
@@ -45,6 +45,6 @@ footer {
     grid-template-areas:
         "h h"
         "m a"
-        "f f"
+        "f f" /* TROCAR UMA LETRA POR UM PONTO "." DEIXA O ESPAÇO VAZIO!
         /*gap: 20px;*/
 }
