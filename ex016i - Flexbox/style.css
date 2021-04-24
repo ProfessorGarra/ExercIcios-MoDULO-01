@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+
+    width: 30vw;
+    height: 40vh;
+
+    background: #00aaff;
+    color: #ffffff;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    /*alinha eixo x "principal*/
+    align-items: flex-end;
+    /* alinha eixo y "transversal"*/
+    align-content: flex-start;
+    /*alinha os itens dentro o container, esta relacionado com o comportamento do flex-wrap*/
+}
+
+.item {
+    flex: 1;
+    flex-basis: 40px;
+    background: #f89900fd;
+    border: 1px solid #ffffff;
+    text-align: center;
+}
+
+.item-2 {
+    height: 80px;
+}
