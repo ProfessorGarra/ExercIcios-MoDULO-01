@@ -17,7 +17,7 @@ body {
     background: #00aaff;
     color: #ffffff;
     padding: 20px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas.*/
     justify-content: flex-end;
     /*alinha eixo x "principal*/
     align-items: flex-end;
