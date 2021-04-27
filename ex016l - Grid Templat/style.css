@@ -22,13 +22,12 @@ html,body{
     ;
 }
 .container>div{
-    background: #AB06F4;
+    background: #be11e9;
     border: 5px solid #08fb00;
 }
 .item{
     background-color: #048;
     color: #ffffff;
-    border: 1px solid #be11e9;
     text-align: center;
 }
 .header{
