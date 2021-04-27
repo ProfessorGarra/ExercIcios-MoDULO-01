@@ -92,7 +92,7 @@ text-align: center;
     Podemos informar a propriedade span para o column "1/span 3, vai se expandir e chegar até o 3*/
     grid-row: 1/3;
 }
-.area{ /* m/n i/j , onde m=linha inicial ; i=linha final ; n=coluna inicial ; j=coluna final NÃO ESQUECER QUE n,j precisa de adicionar 1 pois são excludentes, se quer cehgar ao 2 , tem que colocar 3*/
+.area{ /* m/n i/j , onde m=linha inicial ; i=linha final ; n=coluna inicial ; j=coluna final NÃO ESQUECER QUE n,j precisa de adicionar 1 pois são excludentes, se quer chegar ao 2 , tem que colocar 3*/
     grid-area:1 / 1/ 1 / 3 ;
 }
 .area2{
