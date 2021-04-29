@@ -41,13 +41,15 @@ nav{
     height: 60px;
 }
 section{
+    display: flex;
     background: #c600eb;
     
 }
-/* article{
+article{
     background: #00fffd;
+    margin: 20px;
 
-} */
+} 
 aside{
     background: #3347ff;
     
@@ -55,4 +57,7 @@ aside{
 footer{
     background: #ff33f9;
     height: 100px;
+}
+h2,p{
+    padding: 15px;
 }
