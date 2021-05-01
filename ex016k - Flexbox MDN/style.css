@@ -27,7 +27,7 @@
 
       /* Add your flexbox CSS below here */
       section{
-          display:flex; /* Fa´ra com que as colunas que surgem nos elementos filhos tenham sempre a mesma altura e sua largura varia de acordo com o conteúdo. As formatações de padding e margin continuam*/
+          display:flex; /* Fará com que as colunas que surgem nos elementos filhos tenham sempre a mesma altura e sua largura varia de acordo com o conteúdo. As formatações de padding e margin continuam*/
       }
 
 
