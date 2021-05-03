@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-areas:
+        "header header header header header"
+        "main main main main aside"
+        "footer footer footer footer footer";
+    gap: 5px;
+    height: 100vh;
+}
+
+.header {
+    background: #9932cc;
+    grid-area: header;
+}
+
+.main {
+    background: #adff2f;
+    grid-area: main;
+}
+
+.aside {
+    background: #ff00ff;
+    grid-area: aside;
+}
+
+.footer {
+    background: #40e0d0;
+    grid-area: footer;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    width: 80px;
+    border: solid 1px black;
+}
+
+h1 {
+    font: normal bolder 2em arial;
+    text-align: center;
+}
+h2{
+    background: #00ffff;
+    border: solid 1px #000000;
+    border-radius: 8px;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+}
+
+section {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.ex-static {
+    position: static;
+    border: solid 2px #000000;
+    text-align: center;
+    margin: 20px;
+    background: #aa00ff;
+}
+
+.ex-fixed {
+    position: fixed;
+    bottom: auto;
+    left: auto;
+    border: solid 2px #000000;
+    text-align: center;
+    margin: 20px;
+    background: #aa00ff;
+}
+
+.ex-relative01 {
+    position: relative;
+    border: solid 2px #000000;
+    text-align: center;
+    margin: 20px;
+    background: #aa00ff;
+}
+
+.ex-relative02 {
+    position: relative;
+    border: solid 2px #000000;
+    text-align: center;
+    margin: 20px;
+    background: #aa00ff;
+}
+
+.ex-absolute {
+    position: relative;
+    border: solid 2px #000000;
+    text-align: center;
+    margin: 20px;
+    background: #aa00ff;
+}
+
+.ex-sticky {
+    position: relative;
+    border: solid 2px #000000;
+    text-align: center;
+    margin: 20px;
+    background: #aa00ff;
+}
+
+p {
+    color: #ffffff;
+    font-weight: bolder;
+}
