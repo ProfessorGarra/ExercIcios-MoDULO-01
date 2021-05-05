@@ -1,0 +1,46 @@
+@charset "UTF-8";
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{ /* link ja clicado*/
+    color: #9900ff;
+}
+a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+a:active{ /* link na hora de clicar*/
+    color:#00008b
+}
+a::before{
+    content: " ➮ " ;
+    text-decoration: none;
+    font-weight: normal;
+    color: #1e90ff;
+}
+a::after{
+    content: " ➮ " ;
+    text-decoration: none;
+    font-weight: normal;
+    color: #1e90ff;
+}
+.especial::after{
+    content: " ➜ " ;
+    text-decoration: none;
+    font-weight: normal;
+    color: #0000ff;
+}
+li{
+    font-family: monospace;
+}
+.ls{
+    list-style: none;
+}
+
