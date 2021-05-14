@@ -1,11 +1,21 @@
 @charset "UTF=8";
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 h1{
     background-color: lightgray;
     width: 300px;
     height: 300px;
     border: 10px solid #a9a9a9;
     padding: 30px 10px;
+    margin: 50px;
 }
-a{
+a,img{
     border: 10px solid #90ee90;
+    margin: 50px;
+}
+p,h2{
+    margin: 50px;
 }
