@@ -19,7 +19,7 @@ header {
 }
 
 main {
-    background: blue;
+    background: #2728FF;
     grid-area: m;
     /* grid-column: 1/2;*/
 
@@ -57,5 +57,5 @@ h1 {
 header,main,aside,footer,:hover>h1{
     display: block;
     text-align: center;
-    transition:1ms;
+    font-family: monospace;
 }
