@@ -6,7 +6,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     /* USAR EM TUDO, POIS AJUSTA O TAMANHO DA CAIXA COM A BORDA NO CALCULO PERCENTUAL, CONSIDERANDO AMBOS PARA O CÁLCULO.
-    background: #7159c1;
+    background: #7159c1;*/
 }
 
 header {
@@ -16,11 +16,13 @@ header {
     grid-column-end:3;*/
     grid-row: 3/4;
     grid-area: h;
+    text-align: center;
 }
 
 main {
     background: #2728FF;
     grid-area: m;
+    text-align: center;
     /* grid-column: 1/2;*/
 
 }
@@ -28,6 +30,7 @@ main {
 aside {
     background: green;
     grid-area: a;
+    text-align: center;
     /* grid-column: 2/3;*/
 
 }
@@ -35,6 +38,7 @@ aside {
 footer {
     background: red;
     grid-area: f;
+    text-align: center;
     /*grid-column: 1/3;*/
 
 }
@@ -54,8 +58,12 @@ footer {
 h1 {
     display: none;
 }
-header,main,aside,footer,:hover>h1{
+
+header,
+main,
+aside,
+footer,
+:hover>h1 {
     display: block;
-    text-align: center;
     font-family: monospace;
 }
