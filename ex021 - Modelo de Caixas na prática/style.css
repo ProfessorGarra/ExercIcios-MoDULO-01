@@ -4,15 +4,16 @@ html,body{
     margin: 0;
     box-sizing: border-box;
 }
-h1{
+h1{ /*a tag h1 é box-level*/
     background-color: lightgray;
     width: 300px;
     height: 300px;
-    border: 10px solid #a9a9a9;
+    border: 10px solid #a9a9a9;/*linha-estilo-cor --> esta simplificação é chamada de shortHand*/
     padding: 30px 10px;
-    margin: 50px;
+    margin: 25px auto;
+    outline: 5px dashed #fa72c6;/*ocupa área dentro da margin*/
 }
-a,img{
+a,img{/*a tag img é inline-level*/
     border: 10px solid #90ee90;
     margin: 50px;
 }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../../img/garra.ico" type="image/x-icon">
+    <script src="script.js"></script>
+    <title>Display de séries</title>
+</head>
+
+<body>
+    <div class="caixa">
+        <h2>Nome do Filme/Série</h2>
+        <p id="episode-info"></p>
+    </div>
+    <div class="caixa">
+        <h2>The Story of Tau</h2>
+        <p id="first-episode-info"></p>
+    </div>
+
+    <div class="caixa">
+        <h2>The Story of Tau</h2>
+        <p id="second-episode-info"></p>
+    </div>
+
+    <div class="caixa">
+        <h2>The Story of Tau</h2>
+        <p id="third-episode-info"></p>
+    </div>
+    <script>
+        document.querySelector('#episode-info').innerText = `Episode: ${episode.title}
+    Duration: ${episode.duration} min
+    ${episode.hasBeenWatched ? 'Already watched' : 'Not yet watched'}`;
+        class Episod {
+            constructor(title, duration, hasBeenWatched) {
+                this.title = title;
+                this.duration = duration;
+                this.hasBeenWatched = hasBeenWatched;
+            }
+        }
+        let firstEpisode = new Episod('Dark saga', 25, true);
+        let secondEpisode = new Episod('Dark way', 26, false);
+        let thirdEpisode = new Episod('Destiny', 30, false);
+
+        document.querySelector('#first-episode-info').innerText = `Episode: ${firstEpisode.title}
+Duration: ${firstEpisode.duration} min
+${firstEpisode.hasBeenWatched ? 'Already watched' : 'Not yet watched'}`;
+
+        document.querySelector('#second-episode-info').innerText = `Episode: ${secondEpisode.title}
+Duration: ${secondEpisode.duration} min
+${secondEpisode.hasBeenWatched ? 'Already watched' : 'Not yet watched'}`;
+
+        document.querySelector('#third-episode-info').innerText = `Episode: ${thirdEpisode.title}
+Duration: ${thirdEpisode.duration} min
+${thirdEpisode.hasBeenWatched ? 'Already watched' : 'Not yet watched'}`;
+    </script>
+</body>
+
+</html>
