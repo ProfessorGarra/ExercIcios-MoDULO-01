@@ -1,0 +1,82 @@
+@charset "UTF-8";
+html,
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{   
+    font-family: monospace;
+    background-color: #8a2be2;
+}
+header{
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 15px;
+    margin: 40px; 
+}
+nav{
+    background-color: cornflowerblue;
+    padding: 3px;
+    
+}
+a{
+    text-decoration: none;
+    margin: 0px 25px;
+}
+nav> a:hover{
+    text-decoration: underline;
+}
+
+main{
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 40px auto;
+}
+article{
+    display: flex;
+    background-color: chartreuse;
+}
+article > aside {
+    background-color: #8a2be2;
+}
+#form01>h1{
+    border: solid 2px red;
+    padding: 10px;
+    margin: 25px auto;
+}
+#form01>h1:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+#form01>h2:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+#form01>h3:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+#form01>h2{
+    border: solid 2px red;
+    padding: 10px;
+    margin: 25px auto;
+}
+#form01>h3{
+    border: solid 2px red;
+    padding: 10px;
+    margin: 25px auto;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 15px;
+    margin: 40px;
+}
+article > aside{
+    text-align: center;
+}
