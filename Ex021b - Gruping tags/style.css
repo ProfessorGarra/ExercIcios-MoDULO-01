@@ -33,6 +33,12 @@ main {
   background-color: #00fff9;
   padding: 15px;
   margin: 40px auto;
+  border-radius: 25px 0px;
+  box-shadow: -1px 0px 17px 10px #ffff00;
+}
+main:hover{
+  box-shadow: -1px 0px 10px 10px #ffff09;
+  transition: 1s;
 }
 article {
   display: flex;
