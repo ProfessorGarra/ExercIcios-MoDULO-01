@@ -1,0 +1,13 @@
+@charset "UTF-8";
+html,
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    border: 20px solid transparent;
+    margin: 25px;
+    padding: 25px;
+    border-image:url('img/Bolinha.png') 27 stretch;
+}
